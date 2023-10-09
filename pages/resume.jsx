@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+          <h2 className='text-center'>Ashish Kumar</h2>
+          <div className='flex' style={{color:'rgb(86 81 229)'}}>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/kumarrashish/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/Ashish-kumar0707'
               target='_blank'
               rel='noreferrer'
             >
@@ -71,12 +71,13 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> STL
+            <span className='px-2'>|</span> Data Structure and Algorithms
+            <span className='px-2'>|</span> C
+            <span className='px-2'>|</span> C++
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
@@ -92,27 +93,23 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            Mytailmate Private Limited
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Hariyana, India
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Full Stack Developer (Jun'23 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Developed subscription system with API integration and payments 
+            using NextJS, ReactJS, JavaScript and AWS Database.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+            Created Service area validation API to ensure accurate coverage, 
+            enhancing user experience and operational efficiency
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+            Developed subscription details and website pages with Material UI
+             for visually appealing and responsive user interfaces.
             </li>
           </ul>
         </div>
@@ -122,63 +119,72 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              Indgeos Private Limited
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Hariyana, India
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>Software Engineer (Nov'22 - Jan'23)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+            Constructed an SEO-optimized website for company using ReactJS, 
+            integrated with Google Analytics for traffic monitoring.
+
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+            Created a Geospatial application with map sharing functionality, layering
+             options, and drawing features using Openlayers.
+
+            </li>
+            <li>
+            Utilized Google Place and Drawing library within Maps JavaScript API
+             for geographic searches and advanced drawing tools.
+            </li>
+          </ul>
+        </div>
+
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              Indian Institute of Technology Kharagpur
+            </span>
+            <span className='px-2'>|</span> West Bengal, India
+          </p>
+          <p className='py-1 italic'>Research Intern    (Aug'22 - Dec'22)</p>
+          <p className='py-1 italic'>Guide: Professor Rajib Mall </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Analyzed code property graphs and their relation to source code,
+             exploring connections with AST, CFG, and PDG edges.
+            </li>
+            <li>
+            Analyzed code property graphs and their relation to source code,
+             exploring connections with AST, CFG, and PDG edges.
+            </li>
+            <li>
+            Developed Python script for automated code graph generation and 
+            storage, streamlining analysis of the code directories
             </li>
           </ul>
         </div>
 
         {/*  */}
         <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
+          Achievements
         </h5>
       
         {/* Experience */}
         <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+            Secured 1421th rank out of 13,000+ participants around the globe in coding contest Codeforces Round 877 Divison-2.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+            Secured 6th rank out of 3000+ participants around the globe in coding contest CodeChef STARTERS 90 Division-3.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+            Secured top 1.26 percentile in highly competitive JEE(Joint Entrance Examination) mains 2020 out of 1 million students.
             </li>
           </ul>
         </div>

@@ -36,9 +36,9 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <div className='flex items-center justify-between py-4' style={{color:'rgb(86 81 229)'}}>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/kumarrashish/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/Ashish-kumar0707'
                     target='_blank'
                     rel='noreferrer'
                   >
